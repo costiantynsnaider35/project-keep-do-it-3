@@ -41,6 +41,14 @@ body {
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
 }
+button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  background: none;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
