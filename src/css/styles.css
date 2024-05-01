@@ -41,10 +41,34 @@ body {
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
 .container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -70,5 +94,37 @@ body {
 @media screen and (min-width: 1280px) {
   .section {
     padding: 100px 0;
+  }
+}
+.name-title {
+  color: #0c0c0c;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+}
+@media screen and (min-width: 768px) {
+  .name-title {
+    .name-title {
+      color: #0c0c0c;
+      font-size: 48px;
+      line-height: 44px;
+      letter-spacing: -0.96px;
+    }
+  }
+}
+.name-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+@media screen and (min-width: 768px) {
+  .name-text {
+    font-size: 16px;
+    line-height: 20px; /* 128.571% */
+    letter-spacing: -0.32px;
   }
 }
