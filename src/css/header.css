@@ -147,10 +147,8 @@ header {
     }
 
     .header-social-icon {
+        fill: #952a2a;
 
-        fill: #0C0C0C;
-        background-color: #0c0c0c50;
-        border-radius: 25%;
     }
 
 
@@ -304,4 +302,9 @@ header {
         width: 40px;
         height: 40px;
     }
+}
+
+
+.icon-r {
+    fill: #3350E9;
 }
