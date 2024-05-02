@@ -1,3 +1,4 @@
+<!-- -----header------- -->
 <header class="header">
   <div class="container">
     <nav class="header-menu">
@@ -6,7 +7,7 @@
       </a>
       <ul class="header-menu-list">
         <li class="header-menu-item">
-          <a href="#Home" class="header-menu-link">Home</a>
+          <a href="#home" class="header-menu-link current">Home</a>
         </li>
 
         <li class="header-menu-item"><a href="#about-us" class="header-menu-link">About Us</a>
@@ -24,7 +25,7 @@
         <li class="header-menu-item"><a href="#contact-us" class="header-menu-link">Contact Us</a>
         </li>
       </ul>
-      <button class="header-menu-open" type="button">
+      <button class="header-menu-open" type="button" data-menu-open>
       </button>
       <ul class="header-socials-list">
         <li class="heder-socials-item">
@@ -52,11 +53,11 @@
     </nav>
   </div>
   <!-- ------mobile-menu------ -->
-  <!-- <div class="mobile-menu-overlay">
+  <div class="mobile-menu-overlay" data-menu>
     <div class="mobile-menu">
       <ul class="mobile-menu-list">
         <li class="mobile-menu-item">
-          <a href="#Home" class="header-menu-link">Home</a>
+          <a href="#home" class="mobile-menu-link current">Home</a>
         </li>
 
         <li class="mobile-menu-item"><a href="#about-us" class="mobile-menu-link">About Us</a>
@@ -75,10 +76,62 @@
         </li>
       </ul>
       <ul class="mobile-socials-list">
-        <li class="mobile-socials-item"><a href="" class="mobile-socials-link"></a></li>
-        <li class="mobile-socials-item"><a href="" class="mobile-socials-link"></a></li>
-        <li class="mobile-socials-item"><a href="" class="mobile-socials-link"></a></li>
+        <li class="mobile-socials-item">
+          <a href="https://www.facebook.com/goITclub/" class="mobile-socials-link" target="_blank">
+            <svg class="mobile-socials-icon" width="40" height="40">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="https://www.instagram.com/goitclub/" class="mobile-socials-link" target="_blank">
+            <svg class="mobile-socials-icon" width="40" height="40">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="https://www.youtube.com/c/GoIT" class="mobile-socials-link" target="_blank">
+            <svg class="mobile-socials-icon" width="40" height="40">
+              <use></use>
+            </svg>
+          </a>
+        </li>
       </ul>
-    </div> -->
+      <button class="mobile-close-btn" type="button" data-menu-open></button>
+    </div>
   </div>
 </header>
+
+<!-- -------- Open-Close-Menu-Script---------- -->
+<script>
+  (() => {
+    const refs = {
+      openMenuBtn: document.querySelectorAll('[data-menu-open]'),
+      closeMenuBtn: document.querySelectorAll('[data-menu-close]'),
+      menu: document.querySelector('[data-menu]'),
+    };
+
+
+    refs.openMenuBtn.forEach((element) => {
+      element.addEventListener('click', toggleMenu);
+    });
+
+
+    refs.closeMenuBtn.forEach((element) => {
+      element.addEventListener('click', toggleMenu);
+    });
+
+    function toggleMenu() {
+      refs.menu.classList.toggle('is-open');
+    }
+  })();
+
+</script>
+
+
+
+<!-- 
+@media screen and (min-width: 768px) {
+   
+} -->
