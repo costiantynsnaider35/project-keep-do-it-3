@@ -15,7 +15,7 @@
     
     
     <script type="module" crossorigin src="/project-keep-do-it-3/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-keep-do-it-3/assets/index-95018e1b.css">
+    <link rel="stylesheet" href="/project-keep-do-it-3/assets/index-cb46ea68.css">
   </head>
   <body>
     <header class="header">
@@ -60,4 +60,22 @@
 
     
   </body>
+  <script>
+    (() => {
+      const refs = {
+        openMenuBtn: document.querySelectorAll('[data-menu-open]'),
+        closeMenuBtn: document.querySelectorAll('[data-menu-close]'),
+        menu: document.querySelector('[data-menu]'),
+      };
+      refs.openMenuBtn.forEach(element => {
+        element.addEventListener('click', toggleMenu);
+      });
+      refs.closeMenuBtn.forEach(element => {
+        element.addEventListener('click', toggleMenu);
+      });
+      function toggleMenu() {
+        refs.menu.classList.toggle('is-open');
+      }
+    })();
+  </script>
 </html>
