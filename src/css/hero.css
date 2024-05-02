@@ -1,5 +1,8 @@
 .hero {
-  padding: 30px 0;
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
 }
 .hero-container {
   display: flex;
@@ -62,7 +65,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 40px 0;
+    .hero {
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
   }
   .hero-container {
     gap: 40px;
