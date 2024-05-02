@@ -94,6 +94,13 @@ header {
     background-color: #00000056;
 }
 
+@media screen and (min-width: 768px) {
+    .header-menu-open {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 
 @media screen and (min-width: 1280px) {
     .header-menu-open {
@@ -132,7 +139,8 @@ header {
     .header-social-icon {
 
         fill: #0C0C0C;
-        background-color: #0C0C0C;
+        background-color: #0c0c0c50;
+        border-radius: 25%;
     }
 
 
@@ -211,6 +219,9 @@ header {
 @media screen and (min-width: 768px) {
     .mobile-menu {
         width: 330px;
+        padding-left: 101px;
+        padding-right: 101px;
+        padding-bottom: 50px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.92) 0%, rgba(12, 12, 12, 0.92) 100%),
             url(../img/mobile-menu/mobile-menu-bg-1x-tablet.jpg);
     }
@@ -236,6 +247,13 @@ header {
     margin-bottom: auto;
 }
 
+@media screen and (min-width: 768px) {
+    .mobile-menu-list {
+        padding-top: 310px;
+        gap: 32px;
+    }
+}
+
 .mobile-menu-link {
     color: #FBFBFB;
     text-align: center;
@@ -257,6 +275,7 @@ header {
     width: 40px;
     height: 40px;
     background-color: #555050;
+    border-radius: 25%;
 }
 
 .mobile-close-btn {
@@ -272,5 +291,7 @@ header {
     .mobile-close-btn {
         top: 26px;
         right: 32px;
+        width: 40px;
+        height: 40px;
     }
 }
