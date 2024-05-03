@@ -11,7 +11,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.no-scroll {
+  overflow: hidden;
+}
 h1,
 h2,
 h3,
@@ -92,16 +94,16 @@ button {
   }
 }
 .section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 @media screen and (min-width: 768px) {
   .section {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 @media screen and (min-width: 1280px) {
   .section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 .name-title {
