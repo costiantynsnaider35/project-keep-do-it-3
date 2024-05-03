@@ -61,6 +61,7 @@
 }
 
 @media screen and (min-width:768px) {
+
     .advertisement-wrap {
         gap: 32px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.8),
