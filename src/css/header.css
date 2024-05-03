@@ -146,12 +146,46 @@ header {
         gap: 10px;
     }
 
-    .header-social-icon {
-        fill: #952a2a;
-
+    .header-social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        color: transparent;
+        border-radius: 10px;
+        border: 1px solid rgba(12, 12, 12, 0.10);
     }
 
 
+
+    .header-social-icon {
+        fill: #0C0C0C;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+    .header-social-icon:hover,
+    .header-social-icon:focus {
+        fill: #3350E9;
+
+    }
+
+    /* --------------insta------------------------- */
+    .header-social-icon-inst {
+        fill: #0C0C0C;
+        opacity: 0.8;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+    .header-social-icon-inst:hover,
+    .header-social-icon-inst:focus {
+        fill: #3350E9;
+
+    }
+
+    /* --------------insta------------------------- */
 
     header-menu-link {
         color: #0C0C0C;
@@ -279,11 +313,19 @@ header {
     gap: 10px;
 }
 
+.mobile-socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 158, 158, 0.481);
+}
+
 .mobile-socials-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #555050;
-    border-radius: 25%;
+    fill: #FBFBFB;
 }
 
 .mobile-close-btn {
