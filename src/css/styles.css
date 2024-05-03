@@ -11,9 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
-.no-scroll {
-  overflow: hidden;
-}
+
 h1,
 h2,
 h3,
@@ -39,10 +37,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 body {
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
 }
+
 button {
   cursor: pointer;
   margin: 0;
@@ -51,6 +51,7 @@ button {
   background-color: transparent;
   background: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,16 +64,23 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .is-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
 }
+
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
+
 @media (min-width: 320px) and (max-width: 374px) {
   .container {
     width: 100%;
@@ -80,6 +88,7 @@ button {
     margin: 0 auto;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -93,19 +102,23 @@ button {
     padding: 0 65px;
   }
 }
+
 .section {
   padding: 30px 0;
 }
+
 @media screen and (min-width: 768px) {
   .section {
     padding: 40px 0;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .section {
     padding: 50px 0;
   }
 }
+
 .name-title {
   color: #0c0c0c;
   font-size: 32px;
@@ -114,6 +127,7 @@ button {
   line-height: 32px;
   letter-spacing: -0.64px;
 }
+
 @media screen and (min-width: 768px) {
   .name-title {
     .name-title {
@@ -124,17 +138,19 @@ button {
     }
   }
 }
+
 .name-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
 }
+
 @media screen and (min-width: 768px) {
   .name-text {
     font-size: 16px;
-    line-height: 20px; /* 128.571% */
+    line-height: 20px;
     letter-spacing: -0.32px;
   }
 }
