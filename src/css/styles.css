@@ -145,7 +145,6 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
-  /* 128.571% */
   letter-spacing: -0.28px;
 }
 
@@ -153,7 +152,6 @@ button {
   .name-text {
     font-size: 16px;
     line-height: 20px;
-    /* 128.571% */
     letter-spacing: -0.32px;
   }
 }
