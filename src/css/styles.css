@@ -70,13 +70,7 @@ button {
   pointer-events: auto;
   visibility: visible;
 }
-<<<<<<< HEAD
 
-=======
-.no-scroll {
-  overflow: hidden;
-}
->>>>>>> main
 .container {
   max-width: 375px;
   padding: 0 20px;
@@ -146,10 +140,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
-<<<<<<< HEAD
   /* 128.571% */
-=======
->>>>>>> main
   letter-spacing: -0.28px;
 }
 
@@ -157,10 +148,7 @@ button {
   .name-text {
     font-size: 16px;
     line-height: 20px;
-<<<<<<< HEAD
     /* 128.571% */
-=======
->>>>>>> main
     letter-spacing: -0.32px;
   }
 }
