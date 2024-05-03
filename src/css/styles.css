@@ -11,9 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
-.no-scroll {
-  overflow: hidden;
-}
+
 h1,
 h2,
 h3,
@@ -67,6 +65,9 @@ button {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
+}
+.no-scroll {
+  overflow: hidden;
 }
 .container {
   max-width: 375px;
@@ -128,13 +129,13 @@ button {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
 }
 @media screen and (min-width: 768px) {
   .name-text {
     font-size: 16px;
-    line-height: 20px; /* 128.571% */
+    line-height: 20px;
     letter-spacing: -0.32px;
   }
 }
