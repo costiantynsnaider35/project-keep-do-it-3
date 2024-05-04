@@ -133,12 +133,10 @@ button {
 
 @media screen and (min-width: 768px) {
   .name-title {
-    .name-title {
-      color: #0c0c0c;
-      font-size: 48px;
-      line-height: 44px;
-      letter-spacing: -0.96px;
-    }
+    color: #0c0c0c;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
   }
 }
 
