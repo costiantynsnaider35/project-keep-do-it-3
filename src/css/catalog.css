@@ -32,7 +32,6 @@
   display: flex;
   width: 279px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 8px;
   padding: 28px 28px 24px;
 }
@@ -98,6 +97,9 @@
     width: 344px;
     height: 414px;
   }
+  .img-title {
+    font-size: 20px;
+  }
   .cataloge-img {
     display: flex;
     height: 312px;
@@ -139,6 +141,9 @@
   .cataloge-list {
     width: 368px;
   }
+  .img-title {
+    font-size: 20px;
+  }
   .no-mob {
     column-gap: 23px;
   }
@@ -153,8 +158,5 @@
   }
   .cataloge-title {
     margin-bottom: 40px;
-  }
-  .img-title {
-    font-size: 20px;
   }
 }
