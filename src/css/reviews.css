@@ -1,0 +1,107 @@
+.review-img {
+  border-radius: 56px;
+}
+.review-items {
+  display: flex;
+  box-sizing: border-box;
+  width: 335px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 36px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.review-items:hover {
+  background: #e4e1e1;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+/* @media screen and (max-width: 767px) {
+  .review-items:last-child,
+  .review-items:nth-child(even) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .review-items:last-child {
+    display: none;
+  }
+} */
+.review-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 335px;
+  height: 270px;
+  overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  .review-lists {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 688px;
+    height: 272px;
+  }
+  .review-items {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .review-lists {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: visible;
+    min-width: 1150px;
+  }
+  .review-items {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+}
+
+.review-inform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+  gap: 8px;
+  width: 263px;
+}
+@media screen and (min-width: 768px) {
+  .review-inform {
+    width: 272px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .review-inform {
+    width: 298px;
+  }
+}
+
+.review-subtitles {
+  color: #0c0c0c;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+.reviews .name-title {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .reviews .name-title {
+    margin-bottom: 40px;
+  }
+}
+.reviews .name-text {
+  color: rgba(12, 12, 12, 0.4);
+  text-align: center;
+}

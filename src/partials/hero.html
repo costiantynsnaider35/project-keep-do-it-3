@@ -1,3 +1,63 @@
-<section class="section hero">
-  <div class="container"></div>
+<section id="home" class="hero">
+  <div class="container hero-container">
+    <div class="hero-list">
+      <div class="hero-list-text">
+        <h1 class="title">
+          Welcome to our <span class="title-span">collection</span> of premium
+          watches
+        </h1>
+        <p class="name-text hero-text">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="hero-scroll">
+        <img
+          class="hero-team"
+          srcset="
+            ./img/img-hero/team-1x-mob.jpg 1x,
+            ./img/img-hero/team-2x-mob.jpg 2x
+          "
+          srcset="
+            ./img/img-hero/team-1x-tablet.jpg 1x,
+            ./img/img-hero/team-2x-tablet.jpg 2x
+          "
+          srcset="
+            ./img/img-hero/team-1x-desc.jpg 1x,
+            ./img/img-hero/team-2x-desc.jpg 2x
+          "
+        />
+        <a class="hero-link" href="#footer">Scroll down</a>
+      </div>
+    </div>
+    <picture class="hero-board">
+      <source
+        srcset="
+          ./img/img-hero/Rectangle-desc-1x.jpg 1x,
+          ./img/img-hero/Rectangle-desc-2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/img-hero/Rectangle-tablet-1x.jpg 1x,
+          ./img/img-hero/Rectangle-tablet-2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/img-hero/Rectangle-mob-1x.jpg 1x,
+          ./img/img-hero/Rectangle-mob-2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/img-hero/Rectangle-mob-1x.jpg"
+        alt="Rectangle"
+        width="1150"
+      />
+    </picture>
+  </div>
 </section>
