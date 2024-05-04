@@ -7,10 +7,6 @@
 .sale-list {
 }
 .sale-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
 
@@ -118,11 +114,6 @@
 /* -----------------Tablet---------------------- */
 
 @media screen and (min-width: 768px) {
-  .sale-title {
-    font-size: 48px;
-    line-height: 92%;
-  }
-
   .sale-foto-list {
     flex-direction: column;
     gap: 10px;
