@@ -124,14 +124,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: #0c0c0c;
-
-    font-family: Gilroy;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: -0.96px;
   }
   .cataloge-item {
     column-gap: 23px;
