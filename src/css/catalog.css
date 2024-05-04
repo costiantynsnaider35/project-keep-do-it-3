@@ -46,6 +46,8 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.32px;
+  width: 280px;
+  height: 18px;
 }
 .img-subtitle {
   color: rgba(12, 12, 12, 0.5);
