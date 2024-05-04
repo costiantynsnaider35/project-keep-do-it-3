@@ -99,6 +99,8 @@
   }
   .img-title {
     font-size: 20px;
+    width: 280px;
+    height: 18px;
   }
   .cataloge-img {
     display: flex;
@@ -143,6 +145,8 @@
   }
   .img-title {
     font-size: 20px;
+    width: 304px;
+    height: 18px;
   }
   .no-mob {
     column-gap: 23px;
