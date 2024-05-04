@@ -103,6 +103,7 @@
     font-size: 20px;
     width: 280px;
     height: 18px;
+    letter-spacing: -0.4px;
   }
   .cataloge-img {
     display: flex;
@@ -149,6 +150,7 @@
     font-size: 20px;
     width: 304px;
     height: 18px;
+    letter-spacing: -0.4px;
   }
   .no-mob {
     column-gap: 23px;
