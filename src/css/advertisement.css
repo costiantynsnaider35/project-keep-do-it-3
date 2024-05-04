@@ -6,7 +6,7 @@
     background-color: #0c0c0c;
     background-image: linear-gradient(rgba(12, 12, 12, 0.8),
             rgba(12, 12, 12, 0.8)),
-        url(./img/advertisement/advertisement-mob.jpg);
+        url(../img/advertisement/advertisement-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,7 @@
     .advertisement-wrap {
         background-image: linear-gradient(rgba(12, 12, 12, 0.8),
                 rgba(12, 12, 12, 0.8)),
-            url(./img/advertisement/advertisement-mob-2x.jpg);
+            url(../img/advertisement/advertisement-mob-2x.jpg);
     }
 }
 
@@ -66,7 +66,7 @@
         gap: 32px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.8),
                 rgba(12, 12, 12, 0.8)),
-            url(./img/advertisement/advertisement-tab.jpg);
+            url(../img/advertisement/advertisement-tab-1x.jpg);
         padding: 80px 64px;
     }
 
@@ -76,7 +76,7 @@
         .advertisement-wrap {
             background-image: linear-gradient(rgba(12, 12, 12, 0.8),
                     rgba(12, 12, 12, 0.8)),
-                url(./img/advertisement/advertisement-tab-2x.jpg);
+                url(../img/advertisement/advertisement-tab-2x.jpg);
         }
     }
 
@@ -103,7 +103,7 @@
         padding: 83px 80px;
         background-image: linear-gradient(rgba(12, 12, 12, 0.8),
                 rgba(12, 12, 12, 0.8)),
-            url(./img/advertisement/advertisement.jpg);
+            url(../img/advertisement/advertisement-desc-1x.jpg);
     }
 
     @media screen and (-webkit-min-device-pixel-ratio:2),
@@ -112,7 +112,7 @@
         .advertisement-wrap {
             background-image: linear-gradient(rgba(12, 12, 12, 0.8),
                     rgba(12, 12, 12, 0.8)),
-                url(./img/advertisement-2x.jpg);
+                url(../img/advertisement/advertisement-desc-2x.jpg);
         }
     }
 }
