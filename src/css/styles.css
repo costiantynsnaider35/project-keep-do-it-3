@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 h1,
@@ -41,6 +42,7 @@ img {
 body {
   font-family: 'Gilroy', sans-serif;
   font-style: normal;
+  background: #fbfbfb;
 }
 
 button {
@@ -104,21 +106,18 @@ button {
 }
 
 .section {
-  padding-top: 109px;
-  padding-bottom: 30px;
+  padding: 30px 0;
 }
 
 @media screen and (min-width: 768px) {
   .section {
-    padding-top: 132px;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section {
-    padding-top: 138px;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
 }
 
