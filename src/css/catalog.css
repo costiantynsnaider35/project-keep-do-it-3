@@ -19,7 +19,11 @@
   background: #f3f3f3;
   padding: 24px 28px;
 }
-
+@media only screen and (max-width: 767px) {
+  .cataloge-list:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
 .cont-cataloge {
   display: flex;
   flex-direction: column;
@@ -68,11 +72,6 @@
 .botton-mob:hover,
 .botton-mob:focus {
   background: #1f3cd4;
-}
-@media only screen and (max-width: 767px) {
-  .no-mob {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 768px) {
