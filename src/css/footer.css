@@ -155,9 +155,14 @@
   top: -24px;
 }
 
-.footer-social-icon:hover,
-.footer-social-icon:focus {
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
   fill: rgba(251, 251, 251, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  border-color: rgba(251, 251, 251, 1);
 }
 
 .footer-adress-link:hover,
