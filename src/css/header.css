@@ -25,7 +25,8 @@
     content: '';
     position: absolute;
     bottom: -.75rem;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 8px;
     height: 8px;
     background-color: #3350E9;
@@ -111,13 +112,14 @@
         border: 1px solid rgba(12, 12, 12, 0.10);
     }
 
+
     .header-social-icon {
         fill: #0C0C0C;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .heder-socials-item:hover .header-social-icon,
-    .heder-socials-item:focus .header-social-icon {
+    .header-socials-item:hover .header-social-icon,
+    .header-social-link:focus .header-social-icon {
         fill: #3350E9;
     }
 
@@ -134,11 +136,13 @@
         color: #0C0C0C;
     }
 
-    .header-menu-link:hover.header-menu-link::before {
+    .header-menu-link:hover.header-menu-link::before,
+    .header-menu-link:focus.header-menu-link::before {
         content: '';
         position: absolute;
         bottom: -.75rem;
-        left: 45%;
+        left: 50%;
+        transform: translateX(-50%);
         width: 8px;
         height: 8px;
         background-color: #3350E9;
@@ -175,7 +179,7 @@
     align-items: center;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-overlay.is-open {
@@ -203,7 +207,7 @@
     padding-left: 39px;
     padding-right: 39px;
     padding-bottom: 40px;
-    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-resolution: 2dppx),
@@ -305,8 +309,9 @@
         height: 20px;
     }
 
-    .mobile-socials-link:hover.mobile-socials-icon,
-    .mobile-socials-link:focus.mobile-socials-icon {
+    .mobile-socials-link:hover .mobile-socials-icon,
+    .mobile-socials-link:focus .mobile-socials-icon,
+    .mobile-socials-link:active .mobile-socials-icon {
         fill: rgba(251, 251, 251, 1);
     }
 
