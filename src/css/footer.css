@@ -160,11 +160,6 @@
   fill: rgba(251, 251, 251, 1);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-  border-color: rgba(251, 251, 251, 1);
-}
-
 .footer-adress-link:hover,
 .footer-adress-link:focus {
   border-color: rgba(251, 251, 251, 1);
