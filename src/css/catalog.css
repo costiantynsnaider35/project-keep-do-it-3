@@ -69,11 +69,12 @@
 .botton-mob:focus {
   background: #1f3cd4;
 }
-@media only screen and (max-width: 768px) {
-  li:nth-last-child(-n + 2) {
+@media only screen and (max-width: 767px) {
+  .no-mob {
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
   .cataloge-item {
     display: flex;
