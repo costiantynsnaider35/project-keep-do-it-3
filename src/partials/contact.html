@@ -1,84 +1,86 @@
 <!-- Contact Us -->
-<section class="section container" id="contact-us">
-  <h2 class="name-title">Contact Us</h2>
-  <div class="contact-all">
-    <div class="contact-container">
-      <p class="contact-title-cont name-text">
-        Please use the form below to contact us. Enter your name, email, phone,
-        and message and we'll get back to you shortly.
-      </p>
-      <form class="contact-form">
-        <div class="contact-input-cont">
-          <div class="contact-field">
-            <input
-              type="text"
-              class="contact-input"
-              name="user-name"
-              id="user-name"
-              placeholder="Name"
-            />
+<section class="section" id="contact-us">
+  <div class="container">
+    <h2 class="name-title">Contact Us</h2>
+    <div class="contact-all">
+      <div class="contact-container">
+        <p class="contact-title-cont name-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form">
+          <div class="contact-input-cont">
+            <div class="contact-field">
+              <input
+                type="text"
+                class="contact-input"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="contact-field">
+              <input
+                type="email"
+                class="contact-input"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+            </div>
+            <div class="contact-field">
+              <input
+                type="tel"
+                class="contact-input"
+                name="user-tel"
+                id="user-tel"
+                placeholder="+380"
+                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              />
+            </div>
+            <div class="contact-field-text">
+              <textarea
+                name="user-comment"
+                id="user-comment"
+                class="contact-text"
+                placeholder="Comment"
+              ></textarea>
+            </div>
           </div>
-          <div class="contact-field">
-            <input
-              type="email"
-              class="contact-input"
-              name="user-email"
-              id="user-email"
-              placeholder="Email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            />
-          </div>
-          <div class="contact-field">
-            <input
-              type="tel"
-              class="contact-input"
-              name="user-tel"
-              id="user-tel"
-              placeholder="+380"
-              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-            />
-          </div>
-          <div class="contact-field-text">
-            <textarea
-              name="user-comment"
-              id="user-comment"
-              class="contact-text"
-              placeholder="Comment"
-            ></textarea>
-          </div>
-        </div>
-        <button class="button-contact" type="button">Send</button>
-      </form>
-    </div>
-    <div class="contact-img-cont">
-      <picture>
-        <source
-          srcset="
-            ./img/contact-img/contact-desk.jpg    1x,
-            ./img/contact-img/contact-desk-2x.jpg 2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            ./img/contact-img/contact-tab.jpg    1x,
-            ./img/contact-img/contact-tab-2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./img/contact-img/contact-mob.jpg    1x,
-            ./img/contact-img/contact-mob-2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img
-          src="./img/contact-img/contact-mob.jpg"
-          alt="Rectangle"
-          class="contact-img"
-        />
-      </picture>
+          <button class="button-contact" type="button">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-cont">
+        <picture>
+          <source
+            srcset="
+              ./img/contact-img/contact-desk.jpg    1x,
+              ./img/contact-img/contact-desk-2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact-img/contact-tab.jpg    1x,
+              ./img/contact-img/contact-tab-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contact-img/contact-mob.jpg    1x,
+              ./img/contact-img/contact-mob-2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/contact-img/contact-mob.jpg"
+            alt="Rectangle"
+            class="contact-img"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
