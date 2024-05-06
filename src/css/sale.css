@@ -186,7 +186,9 @@
 
   .sale-main-foto-box {
     padding: 80px 50px;
-    width: 458px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .sale-main-photo {
