@@ -19,7 +19,7 @@
   padding: 32px 36px;
   border-radius: 30px;
   background: #f3f3f3;
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-items:hover {
