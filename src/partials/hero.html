@@ -13,21 +13,34 @@
         </p>
       </div>
       <div class="hero-scroll">
-        <img
-          class="hero-team"
-          srcset="
-            ./img/img-hero/team-mob-1x.png 1x,
-            ./img/img-hero/team-mob-2x.png 2x
-          "
-          srcset="
-            ./img/img-hero/team-tab-1x.png 1x,
-            ./img/img-hero/team-tab-2x.png 2x
-          "
-          srcset="
-            ./img/img-hero/team-desc-1x.png 1x,
-            ./img/img-hero/team-desc-2x.png 2x
-          "
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/img-hero/team-desc-1x.png 1x,
+              ./img/img-hero/team-desc-2x.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/img-hero/team-tab-1x.png 1x,
+              ./img/img-hero/team-tab-2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/img-hero/team-mob-1x.png 1x,
+              ./img/img-hero/team-mob-2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/img-hero/team-mob-2x.png 2x"
+            alt="team photo"
+            width="100%"
+          />
+        </picture>
         <a class="hero-link" href="#footer">Scroll down</a>
       </div>
     </div>
@@ -57,7 +70,7 @@
         class="hero-board"
         src="./img/img-hero/hero-mob-1x.png 1x"
         alt="Rectangle"
-        width="1150"
+        width="100%"
       />
     </picture>
   </div>

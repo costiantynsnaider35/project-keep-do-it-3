@@ -39,10 +39,6 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-.hero-team {
-  max-width: 108px;
-  height: 44px;
-}
 .hero-link {
   color: #0c0c0c;
   font-size: 14px;
@@ -91,10 +87,6 @@
     align-items: flex-end;
     gap: 180px;
   }
-  .hero-team {
-    max-width: 136px;
-    height: 60px;
-  }
   .hero-link {
     font-size: 20px;
     line-height: 20px;
@@ -127,10 +119,6 @@
   }
   .hero-scroll {
     gap: 189px;
-  }
-  .hero-team {
-    max-width: 146px;
-    height: 60px;
   }
   .title {
     font-size: 72px;
