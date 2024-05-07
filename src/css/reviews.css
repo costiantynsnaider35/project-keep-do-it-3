@@ -19,11 +19,11 @@
   padding: 32px 36px;
   border-radius: 30px;
   background: #f3f3f3;
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-items:hover {
   background: #e4e1e1;
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
@@ -102,8 +102,7 @@
 }
 
 /* @media screen and (max-width: 767px) {
-  .review-items:last-child,
-  .review-items:nth-child(even) {
+  .review-items:nth-last-child(-n+2){
     display: none;
   }
 }
